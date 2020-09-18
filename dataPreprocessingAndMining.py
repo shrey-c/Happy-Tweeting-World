@@ -13,10 +13,10 @@ import pandas as pd
 cd /content/drive/My Drive/Colab Notebooks/dmdw
 
 #takes a few seconds to run
-''' 
+'''
 Locationdf is a dataframe used to store countries with their latitude and longitude.
 Source : https://developers.google.com/public-data/docs/canonical/countries_csv
-''' 
+'''
 locationdf = pd.read_csv('country_centroid.csv')
 locationdf = locationdf.sort_values(by='name')
 locationdf=locationdf.rename(columns={"name": "Country name"})
@@ -91,13 +91,14 @@ from twitter import *
 import sys
 import csv
 import time
-consumer_key = 'T7eP9f6XoHjYS6qITDlRA5VTc'
 
-consumer_secret = 'LjXdLvvYc0SdYDJGuOnaLuS7zRK4vIyHhRWBrXrUKh1TShV4aj'
+consumer_key = 'xxx'
 
-access_key = '1034296635243737088-kFHM3Hi5szDKMdhWdQg4GuDP0ca4HZ'
+consumer_secret = 'xxx'
 
-access_secret = '2ZEwElzsVvS4M7Eh5aeNYYQlhwUCzmFcYsTRQcYpo06KO'
+access_key = 'xxx'
+
+access_secret = 'xxx'
 
 for index, row in citiesmergedf.iterrows():
   if(index%100 == 0):
@@ -107,7 +108,7 @@ for index, row in citiesmergedf.iterrows():
   max_range = 50             # search range in kilometres
   num_results = 100        # minimum results to obtain
   outfile = 'lang_output'+row['Country name']+'.csv' #output file
-  country = row['Country name'] 
+  country = row['Country name']
 
   #-----------------------------------------------------------------------
   # load our API credentials
@@ -130,9 +131,9 @@ for index, row in citiesmergedf.iterrows():
   # csvfile = open(outfile, "a")
   # csvwriter = csv.writer(csvfile)
 
-  
 
-  
+
+
   #-----------------------------------------------------------------------
   # add headings to our CSV file
   #-----------------------------------------------------------------------
