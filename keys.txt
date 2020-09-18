@@ -1,7 +1,0 @@
-API key:T7eP9f6XoHjYS6qITDlRA5VTc
-copy-light
-API key secret:LjXdLvvYc0SdYDJGuOnaLuS7zRK4vIyHhRWBrXrUKh1TShV4aj
-
-Access token:1034296635243737088-kFHM3Hi5szDKMdhWdQg4GuDP0ca4HZ
-copy-light
-Access token secret:2ZEwElzsVvS4M7Eh5aeNYYQlhwUCzmFcYsTRQcYpo06KO
